@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+div[style*="display: 'flex'"] {
+  height: 100vh;
+}
+
+div[style*="margin-left: '250px'"] {
+  overflow: auto;
+}
+
+.menu {
+  width: 250px;
+  height: 100vh;
+  background: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background: #444;
+}
